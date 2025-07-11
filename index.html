@@ -1,64 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>LewisTech | IT Solutions in South Africa</title>
-<link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>LewisTech | IT Solutions in South Africa</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-<header>
-<div class="container">
-<h1>LewisTech</h1>
-<p>Your Trusted IT Partner in South Africa</p>
-</div>
-</header>
-
-<nav>
-<div class="container">
-<ul>
-<li><a href="#">Home</a></li>
-<li><a href="#services">Services</a></li>
-<li><a href="#contact">Contact</a></li>
-</ul>
-</div>
-</nav>
-
-<section class="hero">
-<div class="container">
-<h2>Reliable IT Services for Homes and Businesses</h2>
-<p>Hardware, Software, Networking, Repairs, Hosting, and More!</p>
-</div>
-</section>
-
-<section id="services" class="services">
-<div class="container">
-<h2>Our Services</h2>
-<ul>
-<li>💻 Hardware and Software Sales</li>
-<li>🔌 Cabling (Structured & Network)</li>
-<li>🖨️ Printer Support & Maintenance</li>
-<li>🔧 Laptop and Computer Repairs</li>
-<li>🌐 Web and Domain Hosting</li>
-<li>🗄️ Server Support</li>
-<li>📹 CCTV & Access Control Systems</li>
-</ul>
-</div>
-</section>
-
-<section id="contact" class="contact">
-<div class="container">
-<h2>Contact Us</h2>
-<p>📍 Location: South Africa</p>
-<p>📞 Support Line: <a href="tel:+27628077341">062 807 7341</a></p>
-<p>📧 Email: keenanlewis126@gmail.com</p>
-</div>
-</section>
-
-<footer>
-<div class="container">
-<p>&copy; 2025 LewisTech. All rights reserved.</p>
-</div>
-</footer>
+  <header>
+    <div class="container header-flex">
+      <img src="images/logo.png" alt="LewisTech Logo" class="logo" />
+      <div>
+        <h1>LewisTech</h1>
+        <p>Your Trusted IT Partner in South Africa</p>
+      </div>
+    </div>
+  </header>
+  <nav>
+    <div class="container">
+      <ul>
+        <li><a class="animated-btn" href="#">Home</a></li>
+        <li><a class="animated-btn" href="#services">Services</a></li>
+        <li><a class="animated-btn" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <section class="hero">
+    <div class="container">
+      <h2>Reliable IT Services for Homes and Businesses</h2>
+      <p>Hardware, Software, Networking, Repairs, Hosting, and More!</p>
+      <a class="animated-btn" href="#contact">Contact Us</a>
+    </div>
+  </section>
+  <section id="services" class="services">
+    <div class="container">
+      <h2>Our Services</h2>
+      <!-- Image Carousel Start -->
+      <div class="carousel-container">
+        <div class="carousel-slide">
+          <img src="images/service1.jpg" alt="Hardware and Software Sales" />
+          <img src="images/service2.jpg" alt="Cabling" />
+          <img src="images/service3.jpg" alt="Printer Support" />
+          <img src="images/service4.jpg" alt="Repairs" />
+          <img src="images/service5.jpg" alt="Hosting" />
+        </div>
+        <button class="carousel-btn prev">&#10094;</button>
+        <button class="carousel-btn next">&#10095;</button>
+      </div>
+      <!-- Image Carousel End -->
+      <ul>
+        <li>💻 Hardware and Software Sales</li>
+        <li>🔌 Cabling (Structured & Network)</li>
+        <li>🖨️ Printer Support & Maintenance</li>
+        <li>🔧 Laptop and Computer Repairs</li>
+        <li>🌐 Web and Domain Hosting</li>
+        <li>🗄️ Server Support</li>
+        <li>📹 CCTV & Access Control Systems</li>
+      </ul>
+    </div>
+  </section>
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p>📍 Location: South Africa</p>
+      <p>📞 Support Line: <a href="tel:+27628077341">062 807 7341</a></p>
+      <p>📧 Email: keenanlewis126@gmail.com</p>
+    </div>
+  </section>
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 LewisTech. All rights reserved.</p>
+    </div>
+  </footer>
+  <script src="script.js"></script>
 </body>
 </html>
